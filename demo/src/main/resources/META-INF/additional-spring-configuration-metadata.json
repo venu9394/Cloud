@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "cloudant.url",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudant.url'"
+  },
+  {
+    "name": "cloudent.url",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudent.url'"
+  },
+  {
+    "name": "cloudant.username",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudant.username'"
+  },
+  {
+    "name": "cloudant.password",
+    "type": "java.lang.String",
+    "description": "A description for 'cloudant.password'"
+  }
+]}
