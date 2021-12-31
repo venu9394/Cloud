@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD cloud_demo.jar cloud_demo.jar
-EXPOSE 8085
-ENTRYPOINT ["java","-jar","cloud_demo.jar"]
+ADD cloud-demo.jar cloud-demo.jar
+EXPOSE 9090
+ENTRYPOINT ["java","-jar","cloud-demo.jar"]
