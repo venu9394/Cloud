@@ -9,4 +9,4 @@ spec:
     k8s-app: liberty
   type: NodePort
   ports:
-   - port: 8086
+   - port: 9090
