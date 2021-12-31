@@ -11,7 +11,7 @@ template:
  spec:
   containers:
   - name: myapp-pod
-    image: 9502689122/docker-spring-boot
+    image: us.icr.io/cloud_demo
    ports:
-   -containerPort: 8085 
+   -containerPort: 9090 
 
