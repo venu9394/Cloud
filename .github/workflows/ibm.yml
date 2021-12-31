@@ -20,9 +20,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: iks-test
+  IMAGE_NAME: docker-spring-boot
   IKS_CLUSTER: c72kkodf0tfj7i62oj8g
-  DEPLOYMENT_NAME: iks-test
+  DEPLOYMENT_NAME: docker-spring-boot
   PORT: 8085
 
 jobs:
