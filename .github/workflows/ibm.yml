@@ -23,7 +23,7 @@ env:
   IMAGE_NAME: cloud_demo
   IKS_CLUSTER: c72kkodf0tfj7i62oj8g
   DEPLOYMENT_NAME: cloud_demo
-  PORT: 8085
+  PORT: 9090
 
 jobs:
   setup-build-publish-deploy:
