@@ -11,7 +11,7 @@ template:
  spec:
   containers:
   - name: myapp-pod
-    image: us.icr.io/cloud_demo
+    image: us.icr.io/cloud-demo
    ports:
    -containerPort: 9090 
 
