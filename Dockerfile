@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/cloud_demo.jar cloud_demo.jar
+ADD target/docker-spring-boot.jar docker-spring-boot.jar
 EXPOSE 9090
-ENTRYPOINT ["java","-jar","cloud_demo.jar"]
+ENTRYPOINT ["java","-jar","docker-spring-boot.jar"]
