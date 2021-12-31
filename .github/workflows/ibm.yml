@@ -23,7 +23,7 @@ env:
   IMAGE_NAME: iks-test
   IKS_CLUSTER: c72kkodf0tfj7i62oj8g
   DEPLOYMENT_NAME: iks-test
-  PORT: 5001
+  PORT: 8085
 
 jobs:
   setup-build-publish-deploy:
